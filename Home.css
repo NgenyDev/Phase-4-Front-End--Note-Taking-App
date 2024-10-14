@@ -1,0 +1,38 @@
+
+.home-container {
+  padding: 20px;
+  /* Add padding for space around the content */
+  margin: 20px;
+  /* Margin for additional spacing */
+}
+
+.welcome-message {
+  font-size: 24px;
+  /* Increase font size */
+  color: #333;
+  /* Dark color for better visibility */
+  text-align: center;
+  /* Center the text */
+}
+
+.description {
+  font-size: 18px;
+  /* Slightly smaller font for description */
+  color: #555;
+  /* Dark gray for better readability */
+  text-align: center;
+  /* Center the text */
+}
+
+/* Ensure light mode styles */
+.light-mode .welcome-message,
+.light-mode .description {
+  color: #000;
+  /* Use black text for light mode */
+}
+
+.dark-mode .welcome-message,
+.dark-mode .description {
+  color: #fff;
+  /* Use white text for dark mode */
+}
